@@ -1,7 +1,7 @@
 {
   "name": "webpack-4-react",
   "version": "1.0.0",
-  "description": "Boilerplate for React with Webpack 4 and Babel ES6",
+  "description": "Webpack 4 React ES6 Boilerplate",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
