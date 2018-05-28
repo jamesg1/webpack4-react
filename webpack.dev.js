@@ -12,8 +12,8 @@ module.exports = merge(common, {
   plugins: [
     new MiniCssExtractPlugin({
       filename: '[name].css',
-      chunkFilename: '[id].css'
-    })
+      chunkFilename: '[id].css',
+    }),
   ],
   module: {
     rules: [
@@ -21,12 +21,12 @@ module.exports = merge(common, {
         test: /\.s?[ac]ss$/,
         exclude: /node_modules/,
         use: [
-          'style-loader',
+          'style-loader?sourceMap',
           'css-loader',
           'postcss-loader',
           'sass-loader',
-        ]
-      }
-    ]
-  }
-})
+        ],
+      },
+    ],
+  },
+});

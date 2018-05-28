@@ -1,7 +1,7 @@
-import App from './App'
-import React from 'react'
-import { shallow } from 'enzyme'
+import App from './App';
+import React from 'react';
 import toJson from 'enzyme-to-json';
+import { shallow } from 'enzyme';
 
 describe('<App />', () => {
   test('should match snapshot', () => {

@@ -7,8 +7,8 @@ module.exports = merge(common, {
   plugins: [
     new MiniCssExtractPlugin({
       filename: '[name].[hash].css',
-      chunkFilename: '[id].[hash].css'
-    })
+      chunkFilename: '[id].[hash].css',
+    }),
   ],
   module: {
     rules: [
@@ -20,8 +20,8 @@ module.exports = merge(common, {
           'css-loader',
           'postcss-loader',
           'sass-loader',
-        ]
-      }
-    ]
-  }
-})
+        ],
+      },
+    ],
+  },
+});

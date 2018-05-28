@@ -5,5 +5,5 @@ import style from './App.css';
 
 ReactDOM.render(
   <App />,
-  document.getElementById('app')
+  document.getElementById('app'),
 );
